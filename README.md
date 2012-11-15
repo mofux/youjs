@@ -18,7 +18,7 @@ YouJS is a Node.js module. The client javascript (you.js) is served by the YouJS
 
 YouJS uses the excellent <a href="https://github.com/LearnBoost/Socket.IO-node">socket.io</a> library.
 
-2 Step Setup
+Setup
 ==============
 
 **1. On the server**
@@ -37,7 +37,7 @@ YouJS uses the excellent <a href="https://github.com/LearnBoost/Socket.IO-node">
 
 **2. On the client**
 <pre><code>
-&lt;script type="text/javascript" src="http://youjs/you.js">&lt;/script>
+&lt;script type="text/javascript" src="/youjs/you.js">&lt;/script>
 
 &lt;script type="text/javascript"&gt;
   you.ready(function(){
