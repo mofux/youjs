@@ -15,6 +15,12 @@ app.get('/*', function(req,res) {
 	res.sendfile(require('path').join(__dirname, req.path));
 });
 
+everyone.you.sub = {};
+
+everyone.you.sub.test = function(message, callback) {
+	callback('I have received ' + message);
+}
+
 everyone.you.serverSaySomething = function(message, callback) {
 	callback({name: 'thomas', surname: 'zilz'});
 }
