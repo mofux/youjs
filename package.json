@@ -2,7 +2,7 @@
 	"author": "mofux",
 	"name": "youjs",
 	"description": "YouJS: A now.js inspired library for syncing functions between node.js server and web/node.js clients using socket.io",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/mofux/youjs.git"
